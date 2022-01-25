@@ -1,0 +1,10 @@
+[
+	{
+		"id": 1,
+		"nome": "Iuri Martinotto",
+		"email": "iuri@iuri.com.br",
+		"senha": "1234",
+		"endereco": "Rua teste do TCC de angular",
+		"pagamento": "Dinheiro"
+	}
+]

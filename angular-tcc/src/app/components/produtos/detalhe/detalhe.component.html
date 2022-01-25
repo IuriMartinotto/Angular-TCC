@@ -1,0 +1,59 @@
+<div>
+  <div>
+    <div class="row top">
+      <div class="col-2">
+        <img class="large" src="{{produto.image}}" alt="teste" />
+      </div>
+      <div class="col-1">
+        <ul>
+          <li><h1>{{produto.title}}</h1></li>
+          <li> <span> <i class="fa fa-star"></i> </span></li>
+          <li>Preço: R$ {{produto.price}}</li>
+          <li>
+            Descição:
+            <p>{{produto.desc}}</p>
+          </li>
+        </ul>
+      </div>
+      <div class="col-1">
+        <div class="card card-body">
+          <ul>
+            <li>
+              <div class="row">
+                <div>Preço</div>
+                <div class="preco">R$: {{produto.price}}</div>
+              </div>
+            </li>
+
+            <li>
+              <div class="row">
+                <div>Status</div>
+                <div>
+                  <span class="success">Em estoque</span>
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="row">
+                <div>Qtd</div>
+                <div>
+                  <select>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                  </select>
+                </div>
+              </div>
+            </li>
+            <li>
+              <button o class="primary block" (click)="addCarrinho()">Adicionar ao carrinho</button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

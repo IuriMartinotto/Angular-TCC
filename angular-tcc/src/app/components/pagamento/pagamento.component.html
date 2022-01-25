@@ -1,0 +1,84 @@
+<div>
+  <div class="row top">
+    <div class="col-2">
+      <ul>
+        <li>
+          <div class="card card-body">
+            <h2>Entrega</h2>
+            <p>
+              <strong>Nome: </strong> Iuri <br />
+              <strong>Endereço: </strong> Rua do tcc, Caxias do Sul, 95032-400,
+              Brasil
+            </p>
+          </div>
+        </li>
+
+        <li>
+          <div class="card card-body">
+            <h2>Pagamento</h2>
+            <p><strong>Método: </strong> Dinheiro</p>
+          </div>
+        </li>
+
+        <li>
+          <div class="card card-body">
+            <h2>Itens do pedido</h2>
+            <ul>
+              <li>
+                <div class="row" *ngFor="let p of produtos">
+                  <div>
+                    <img
+                      src={{p.image}}
+                      class="small"
+                    />
+                  </div>
+                  <div class="min-30">{{p.title}}</div>
+                  <div>1 x R$ {{p.price}} = R$ {{p.price}}</div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+    <div class="col-1">
+      <div class="card card-body">
+        <ul>
+          <li>
+            <h2>Resumo do pedido</h2>
+          </li>
+          <li>
+            <div class="row">
+              <div>Itens</div>
+              <div>R$: {{shopping_cart.getTotal().toFixed(2)}}</div>
+            </div>
+          </li>
+          <li>
+            <div class="row">
+              <div>Entrega</div>
+              <div>R$: 50.00</div>
+            </div>
+          </li>
+          <li>
+            <div class="row">
+              <div>Taxa</div>
+              <div>R$: 104.75</div>
+            </div>
+          </li>
+          <li>
+            <div class="row">
+              <div><strong>Total do pedido</strong></div>
+              <div><strong>R$: {{totalPedido.toFixed(2)}}</strong></div>
+            </div>
+          </li>
+          <li>
+            <button type="button" class="primary block">
+              Finalizar pedido
+            </button>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>

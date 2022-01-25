@@ -1,0 +1,17 @@
+<div class="checkout">
+    <div class="checkout_esquerda">
+        <div class="checkou_vazio" *ngIf="shopping_cart.get_shopping_cart_length() == 0">
+            <h2> Seu carrinho de compras está vazio </h2>
+            <p>Você não possui nenhum item no carrinho</p>
+        </div>
+
+        <div class="checkout_nao_vazio" *ngIf="shopping_cart.get_shopping_cart_length() != 0">
+            <h2><strong>Carrinho de compras</strong></h2>
+            <app-checkout-produtos [checkout_products] = "produtos" (deleteEvent)="deleteEventHandler()"></app-checkout-produtos>
+        </div>
+    </div>
+
+    <div class="checkout_direita">
+        <app-checkout-subtotal></app-checkout-subtotal>
+    </div>
+</div>

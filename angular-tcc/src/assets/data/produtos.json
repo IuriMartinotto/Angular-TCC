@@ -1,0 +1,100 @@
+[
+	{
+		"id": 1,
+		"title": "Playstation 5",
+		"desc": "Play Has No Limits... Jogar Não Tem Limites... PlayStation®5 O console PS5 oferece novas possibilidades de jogabilidade que você nunca imaginou.",
+		"price": 4700.00,
+		"image": "assets/imagens/Ps5.jpg",
+		"ratings": 5,
+		"categoria": "Consoles",
+		"temStock": 1,
+		"marca": "Sony",
+		"numAvaliacoes": 45
+	},
+	{
+		"id": 2,
+		"title": "Demons Souls",
+		"desc": "Em sua busca por poder, o 12º Rei de Boletaria, Rei Allant, canalizou as ancestrais Artes da Alma, despertando um demônio do alvorecer dos tempos, o Ancião.",
+		"price": 350.00,
+		"image": "assets/imagens/ds.png",
+		"ratings": 4,
+		"categoria": "Jgos",
+		"temStock": 25,
+		"marca": "BluePonint",
+		"numAvaliacoes": 45
+	},
+	{
+		"id": 3,
+		"title": "Returnal",
+		"desc": "Após uma queda forçada em um planeta alienígena que muda de forma, Selene se vê lutando com unhas e dentes pela sobrevivência. Ela é derrotada várias vezes e forçada a reiniciar sua jornada toda vez que morre.",
+		"price": 350.00,
+		"image": "assets/imagens/returnal.png",
+		"ratings": 4,
+		"categoria": "Jgos",
+		"temStock": 25,
+		"marca": "Seila",
+		"numAvaliacoes": 45
+	},
+	{
+		"id": 4,
+		"title": "Mortal Kombat 11",
+		"desc": "Mortal Kombat XI combina uma apresentação cinemática única com uma jogabilidade totalmente nova. Os jogadores podem escolher pela primeira vez diversas variantes de cada personagem, afetando tanto a estratégia como o estilo de luta.",
+		"price": 350.00,
+		"image": "assets/imagens/mk.png",
+		"ratings": 3,
+		"categoria": "Jgos",
+		"temStock": 25,
+		"marca": "WB Games",
+		"numAvaliacoes": 45
+	},
+	{
+		"id": 5,
+		"title": "Xbox Series S",
+		"desc": "Apresentamos o Xbox Series S, o menor e mais elegante Xbox de todos tempos. Experimente a velocidade e desempenho de um console de próxima geração totalmente digital.",
+		"price": 5200.00,
+		"image": "assets/imagens/xbox.jpg",
+		"ratings": 3,
+		"categoria": "Consoles",
+		"temStock": 25,
+		"marca": "Microsoft",
+		"numAvaliacoes": 45
+	},
+	{
+		"id": 6,
+		"title": "Halo",
+		"desc": "Halo 5: Guardians é um jogo de tiro na primeira pessoa (first-person shooter), a história sequência de Halo 4, onde uma força misteriosa e implacável ameaça a galáxia, enquanto o Master Chief está desaparecido e sua lealdade é questionada.",
+		"price": 69.00,
+		"image": "assets/imagens/halo.png",
+		"ratings": 3,
+		"categoria": "Jogos",
+		"temStock": 25,
+		"marca": "Microsoft",
+		"numAvaliacoes": 45
+	},
+	{
+		"id": 7,
+		"title": "Sekiro",
+		"desc": "Trilhe o caminho da vingança nesta aventura inédita da FromSoftware, os criadores da série Dark Souls. Em Sekiro: Shadows Die Twice, 'você é o lobo de um braço só', um guerreiro desfigurado e desgraçado, resgatado da beira da morte. Destinado a proteger um jovem senhor descendente de uma antiga linhagem, você é alvo de muitos inimigos cruéis, incluindo o perigoso clã Ashina. E, após a captura do jovem senhor, nada impedirá sua jornada arriscada para retomar sua honra, nem mesmo a morte. Explore o Japão do final dos anos 1500, no Período Sengoku, enquanto enfrenta inimigos épicos em um mundo sombrio e distorcido. Use um arsenal de próteses letais e habilidades ninjas poderosas ao mesmo tempo, alternando furtividade, travessia vertical e combate direto em um confronto visceral. Vingue-se. Restaure sua honra. Mate com astúcia.",
+		"price": 249.00,
+		"image": "assets/imagens/sekiro.png",
+		"ratings": 3,
+		"categoria": "Jogos",
+		"temStock": 25,
+		"marca": "FromSoftware",
+		"numAvaliacoes": 45
+	},
+	{
+		"id": 8,
+		"title": "Gabinete PC Gamer",
+		"desc": "Conheça o gabinete Cichau Gaming Komor, com PSU cover e frente facilmente removível e lateral em vidro temperado 4mm, é o ideal para fazer o update no seu setup gamer.",
+		"price": 249.00,
+		"image": "assets/imagens/pcgamer.jpg",
+		"ratings": 3,
+		"categoria": "Computadores",
+		"temStock": 25,
+		"marca": "Cichau",
+		"numAvaliacoes": 45
+	}
+ ]
+
+
